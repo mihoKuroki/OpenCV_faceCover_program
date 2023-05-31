@@ -43,3 +43,6 @@ while True:
 # キャプチャの解放とウィンドウの破棄
 cap.release()
 cv2.destroyAllWindows()
+
+#顔検出した画像を保存する 
+cv2.imwrite('./sample_cascade.avi', frame)
